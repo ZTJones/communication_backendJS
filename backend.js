@@ -4,7 +4,8 @@ const { userInfo } = require("os");
 
 
 //Consts
-const CONNECTION_STRING = "endpoint=https://zachstestresource.communication.azure.com/;accesskey=hDYuq92DdidtgRAQddvNJE4U4+lvmGKwfGKEpCVXzcHoUP4nJMNEyWh0dm1AKPxG8Sv/d/sVSKTnLv/1dq43SA==";
+// Configure your endpoint as a system variable, then use that here.
+const CONNECTION_STRING = "<CONNECTION_STRING>";
 
 // const numberClient = new CommunicationIdentityClient(CONNECTION_STRING);
 
