@@ -5,7 +5,8 @@ const { userInfo } = require("os");
 
 //Consts
 // Configure your endpoint as a system variable, then use that here.
-const CONNECTION_STRING = "<CONNECTION_STRING>";
+// You can find more information here: https://docs.microsoft.com/en-us/azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp#store-your-connection-string
+const CONNECTION_STRING = process.env['COMMUNICATION_SERVICES_CONNECTION_STRING'];
 
 // const numberClient = new CommunicationIdentityClient(CONNECTION_STRING);
 
